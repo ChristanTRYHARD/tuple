@@ -1,0 +1,33 @@
+# 1.Napisz “Timer” przyjmuje od użytkownika liczbę minut. Liczymy za ile skończy się czas. (program na rozgrzewkę)
+# from time import sleep
+# def Timer():
+#     x = float(input("ile min: ")) * 60
+#     while x > 0:
+#         print(f"zostało {x}s")
+#         x -= 1
+#         sleep(1)
+#     print("END !!!")
+# Timer()
+# 2.Stwórz krotkę/tuples zawierającą 6 elementów. Zmień ją na listę, usuń 2 ostatnie elementy i zmień z powrotem na krotkę.
+# my_tuples = ('a','b','c','d','e','f')
+# print(my_tuples)
+# y = list(my_tuples)
+# y.pop()
+# y.pop()
+# my_tuples = tuple(y)
+# print(my_tuples)
+# 3.Napisz funkcję zwracającą krotki/tuples o losowych wartościach z przedziału 1,100.
+#  Następnie napisz 2 funkcję która przyjmie naszą
+# krotkę jako argument, pozbędzie się duplikatów,
+# posortuje (od największej wartości do najmniejszej!) i zwraca krotkę
+# from random import randint
+# print('*'*10**2)
+# def xxx1():
+#     return tuple([randint(1,10) for i in range(randint(10,20))])
+# print(xxx1())
+# print('*'*10**2)
+# def xxx2(data):
+#     data = list(set(list(data)))
+#     data.sort(reverse=True)
+#     return tuple(data)
+# print(xxx2(xxx1()))
